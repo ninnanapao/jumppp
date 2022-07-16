@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">
+        Aww, your browser doesn't support HTML5!
+      </canvas>
+
+      <div id="mainMenu">
+        <br><br/>
+        <h1>University Jump</h1>
+        <h3>By: Bomba Films.</h3>
+
+
+        <p class="info">
+          Use
+          <span class="key left">←</span>
+          <span class="key right">→</span>
+          to move and space to Re-start. :)
+        </p>
+        <a class="button" href="javascript:init()">Play</a>
+      </div>
+
+      <div id="gameOverMenu">
+        <br><br/>
+        <h1>GAME OVER!!</h1>
+        <h4 id="go_score">You scored 0 points</h4>
+
+      </div>
+
+      <!-- Preloading image ;) -->
+      <img id="sprite" src="https://i.ibb.co/3c6Hz11/90-30.png"/>
+
+      <div id="scoreBoard">
+        <p id="score">0</p>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
